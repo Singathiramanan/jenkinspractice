@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="practicForJenkins.Sample1"/>
-      <class name="practicForJenkins.Sample2"/>
-    </classes>
-  </test> <!-- Test -->
+	<groups>
+		<run>
+			<include name="regression"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="practicForJenkins.Sample1" />
+			<class name="practicForJenkins.Sample2" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

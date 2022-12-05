@@ -84,7 +84,7 @@
 							<version>3.0.0-M7</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>/jenkins/Batch.xml</suiteXmlFile>
+									<suiteXmlFile>/jenkins/Regression.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
