@@ -3,7 +3,7 @@ package practicForJenkins;
 import org.testng.annotations.Test;
 
 public class Sample1 {
-	@Test
+	@Test(groups="regression")
 	public void sample1(){
 		System.out.println("Welcome to bangalore");
 	}
