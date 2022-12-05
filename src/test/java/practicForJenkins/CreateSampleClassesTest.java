@@ -2,9 +2,9 @@ package practicForJenkins;
 
 import org.testng.annotations.Test;
 
-public class CreateSampleClasses {
+public class CreateSampleClassesTest {
 		@Test(groups="Smoke")
-		public void samplejenkins(){
+		public void samplejenkinsTest(){
 			System.out.println("welcome to testyantra");
 		}
 }
